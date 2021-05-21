@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/cfabrica46/leveldb/login/database"
-	"github.com/cfabrica46/leveldb/login/utils"
+	"github.com/cfabrica46/leveldb-login/database"
+	"github.com/cfabrica46/leveldb-login/utils"
 )
 
 func main() {

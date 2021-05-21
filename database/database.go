@@ -31,6 +31,7 @@ func GetUser(username, password string) (user *User, err error) {
 
 			userBeta.Username = string(iter.Key())
 			user = &userBeta
+			return
 		}
 	}
 
